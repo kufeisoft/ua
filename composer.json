@@ -1,0 +1,38 @@
+{
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
+
+{
+    "name"             : "kufeisoft/ua",
+    "description"      : "get os info from useragent",
+    "minimum-stability": "stable",
+    "license"          : "MIT",
+    "type"             : "project",
+    "authors"          : [
+      {
+        "name" : "kufeisoft",
+        "email": "code@kufeisoft.com"
+      }
+    ],
+    "keywords"         : [
+      "php os",
+      "PHP_OS",
+      "Ua",
+    ],
+    "require"          : {
+      "php": ">=5.3"
+    },
+    "autoload"         : {
+      "classmap": [
+        "src/"
+      ],
+      "psr-4"   : {
+        "kufeisoft\\ua\\": "src/"
+      }
+    },
+    "support"          : {
+      "source": "https://github.com/kufeisoft/ua"
+    }
+  }

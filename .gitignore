@@ -1,4 +1,4 @@
 /vendor
-composer.*
+composer.lock
 *.cache
 .DS_Store
