@@ -1,10 +1,4 @@
 {
-    "require": {
-        "phpunit/phpunit": "^9.5"
-    }
-}
-
-{
     "name"             : "kufeisoft/ua",
     "description"      : "get os info from useragent",
     "minimum-stability": "stable",
@@ -19,7 +13,7 @@
     "keywords"         : [
       "php os",
       "PHP_OS",
-      "Ua",
+      "Ua"
     ],
     "require"          : {
       "php": ">=5.3"
